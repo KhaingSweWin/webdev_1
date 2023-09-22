@@ -1,0 +1,5 @@
+extra large: min-width:1200px >
+large: 992-1200 px
+medium : 768-992
+small : 600-768px 
+extra small:<600 (max-width)

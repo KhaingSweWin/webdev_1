@@ -1,0 +1,52 @@
+h2,h3{
+    color:red;
+}
+div p{
+    color:blue;
+}
+div h3{
+    color:purple;
+}
+.div1>p{
+    background-color: yellow;
+}
+h2+p{
+    background-color: lightseagreen;
+}
+
+
+input[type=text]{
+    color:red;
+}
+input[type=radio]:checked{
+    color:purple;
+    background-color:brown
+
+}
+a:hover{
+    color:red
+}
+a:visited{
+    color:green
+}
+
+
+li:first-child{
+    color:purple
+}
+li:last-child{
+    color:red
+}
+li:nth-child(2){
+    color:green
+}
+li:nth-child(odd){
+    color:red
+}
+li:hover{
+    background-color: cyan;
+}
+
+
+
+

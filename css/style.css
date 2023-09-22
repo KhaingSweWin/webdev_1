@@ -1,0 +1,22 @@
+body,*{   
+    margin:0px;      
+}
+.history-title{
+    color:rgb(218, 72, 24);
+}
+h3,li{
+    color:blue;
+}
+div{
+    background-color: bisque;    
+    margin:50px 10px 10px 10px; 
+}
+span{
+    color:black;
+}
+.education-title{
+    color:blue;
+}
+#p2{
+    color:red;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Lora';
+    src: url(../fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+body{
+    font-family:'Lora';
+}
+.banner{
+    
+    text-decoration: overline underline dashed red;
+    text-transform: uppercase;
+    text-indent: 150px;
+    
+
+    
+    line-height: 10px;
+    
+    
+    width:100%;
+    height:600px;
+    background: linear-gradient(to right,rgba(131,96,195,0.3), rgba(46,191,145,0.5)),url(../images/bagan_banner.jpg);
+    background-size: cover;
+}
+.event{
+    width:200px;
+    height:200px;
+    background:url(../images/study_in_japan_EN_RGB.jpg);
+    background-repeat: no-repeat;
+}
+a:hover .event{
+    background:linear-gradient(to right,rgba(131,96,195,0.3), rgba(46,191,145,0.5)),url(../images/study_in_japan_EN_RGB.jpg);
+}
+.radial1{
+    border:5px solid blue;
+    border-radius:0px 50px 0px 100px;
+    width:400px;
+    height:400px;
+    background: radial-gradient(circle closest-corner,yellow,black);
+}
+.radial2{
+    width:400px;
+    height:400px;
+    background: radial-gradient(circle closest-side,yellow,black);
+}
+.radial3{
+    width:400px;
+    height:400px;
+    background: radial-gradient(farthest-corner,yellow,black);
+}
+.radial4{
+    width:400px;
+    height:400px;
+    background: radial-gradient(farthest-side,yellow,black);
+}
+.radial5{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(at top right,yellow,black);
+}
+.conic1{
+    width:400px;
+    height:400px;
+    background: conic-gradient(red 0deg,blue 30deg,green 180deg,black);
+    border-radius: 50%;
+}
+.border1{    
+    border:20px solid rgb(66, 38, 38);
+    border-top-color: rgb(189, 53, 53);
+    border-bottom-color: black;
+    border-left-color: green;
+   
+}
